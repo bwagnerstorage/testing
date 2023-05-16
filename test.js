@@ -1,11 +1,18 @@
-const pw = ["compsci","computer","BWagneriscool","eee","what"];
+var pw = [1,2,3,4,5];
 
-
-setInterval(function() { updateStats(); }, 20);
-
-function updateStats() {
-  document.getElementById("pain").innerHTML = pw;
+for (let i = 0; i < cars.length; i++) {
+  cars[i] += 1;
+  cars[i] = math.pow(cars[i],4);
+  cars[i] = math.sqrt(cars[i]);
+  cars[i] = math.sin(cars[i]);
+  cars[i] = math.floor(cars[i]);
 }
+
+
+
+
+
+
 
 
 
@@ -22,4 +29,10 @@ function testResults(form) {
     else {
       alert ("You are wrong");
     }
+}
+
+
+
+function updateStats() {
+  document.getElementById("pain").innerHTML = pw;
 }
