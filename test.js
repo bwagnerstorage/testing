@@ -1,7 +1,10 @@
 var pw = [1,2,3,4,5];
 
 for (let i = 0; i < pw.length; i++) {
-  pw[i] += "1";
+  pw[i] += 1;
+Math.pow(pw[i],4);
+Math.sin(pw[i]);
+Math.floor(pw[i]);
 
   pw.unshift("tet");
 }
