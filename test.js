@@ -1,11 +1,9 @@
 var pw = [1,2,3,4,5];
 
-for (let i = 0; i < cars.length; i++) {
-  cars[i] += 1;
-  cars[i] = math.pow(cars[i],4);
-  cars[i] = math.sqrt(cars[i]);
-  cars[i] = math.sin(cars[i]);
-  cars[i] = math.floor(cars[i]);
+for (let i = 0; i < pw.length; i++) {
+  pw[i] += "1";
+
+  pw.unshift("tet");
 }
 
 
